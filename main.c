@@ -7,7 +7,7 @@ int main()
     int a[]={2,3,4,5,1,11,8,9,11};
     int n=9;
     int *q=a;
-    printf("Arrays and Functions\n");
+    printf("Arrays and My Functions\n");
     display(q,n);
     display(a,n);
     display1(&a[0],n);
