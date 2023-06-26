@@ -4,8 +4,8 @@ void display(int [], int);
 void display1(int *,int);
 int main()
 {
-    int a[]={2,3,4,5,1,11,8};
-    int n=7;
+    int a[]={2,3,4,5,1,11,8,9,11};
+    int n=9;
     int *q=a;
     printf("Arrays and Functions\n");
     display(q,n);
@@ -18,7 +18,7 @@ int main()
 void display(int a[], int n){
 int i;
 for(i=0;i<n;i++)
-    printf("%d\t",a[i]);
+    printf("%d %d\t",a[i],i);
 printf("\n");
 }
 
